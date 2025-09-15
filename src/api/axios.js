@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000/api", // backend ka baseURL
+  baseURL: "https://multi-tenant-saas-notes-app-backend.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
